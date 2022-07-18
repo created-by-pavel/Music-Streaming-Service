@@ -1,0 +1,63 @@
+.primary_color {
+    -fx-background-color: #181818;
+}
+
+.secondary-color {
+    -fx-background-color: black;
+}
+
+.selected {
+    -fx-border-color: #40e0d0;
+    -fx-border-width: 0 0 0 5;
+}
+
+.top-border {
+    -fx-border-color: A1A1A1;
+    -fx-border-width: 1 0 0 0;
+}
+
+.search-container {
+    -fx-background-color: #fff;
+    -fx-background-radius: 100;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #181818;
+}
+
+.slider .track {
+    -fx-control-inner-background: #40e0d0;
+}
+
+.sign-in-container {
+    -fx-border-color: #40e0d0;
+    -fx-border-width: 0 0 1 0;
+}
+
+.test {
+    -fx-background-image: url("img/pink.jpeg");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.jfx-slider > .track {
+    -fx-background-color: white;
+    -fx-pref-height: 4px;
+    -fx-pref-width: 4px;
+
+}
+
+.jfx-slider > .colored-track {
+    -fx-background-color: #40e0d0;
+}
+
+.jfx-slider > .thumb {
+    -fx-background-color: #40e0d0;
+}
+
+.jfx-slider > .animated-thumb {
+    visibility: false;
+}
+
+
+

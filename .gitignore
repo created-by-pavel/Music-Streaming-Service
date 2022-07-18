@@ -1,0 +1,4 @@
+# Project exclude paths
+/musicService/dao/target/
+/musicService/service/target/
+/musicService/web/target/

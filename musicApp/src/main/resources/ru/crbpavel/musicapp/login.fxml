@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            opacity="0.975" prefHeight="605.0" prefWidth="513.0" styleClass="primary_color"
+            stylesheets="@style.css" xmlns="http://javafx.com/javafx/18"
+            fx:controller="ru.crbpavel.musicapp.LoginController">
+    <center>
+        <VBox alignment="TOP_CENTER" prefHeight="639.0" prefWidth="507.0" spacing="30.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="137.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@img/stuff.png"/>
+                    </image>
+                    <VBox.margin>
+                        <Insets top="30.0"/>
+                    </VBox.margin>
+                </ImageView>
+                <HBox alignment="CENTER" prefHeight="48.0" prefWidth="512.0" spacing="50.0">
+                    <children>
+                        <Label alignment="TOP_RIGHT" prefHeight="48.0" prefWidth="69.0" styleClass="sign-in-container"
+                               stylesheets="@style.css" text="SIGN IN" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="18.0"/>
+                            </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" prefHeight="48.0" prefWidth="72.0" text="SIGN UP" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="18.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <VBox prefHeight="145.0" prefWidth="458.0" spacing="30.0">
+                    <children>
+                        <TextField fx:id="login" alignment="TOP_LEFT" prefHeight="45.0" prefWidth="327.0"
+                                   promptText="Login" style="-fx-background-radius: 100;">
+                            <font>
+                                <Font name="System Bold" size="18.0"/>
+                            </font>
+                            <padding>
+                                <Insets left="20.0" top="9.0"/>
+                            </padding>
+                        </TextField>
+                        <PasswordField fx:id="password" prefHeight="45.0" prefWidth="327.0" promptText="Password"
+                                       style="-fx-background-radius: 100;">
+                            <font>
+                                <Font name="System Bold" size="18.0"/>
+                            </font>
+                            <padding>
+                                <Insets left="20.0"/>
+                            </padding>
+                        </PasswordField>
+                    </children>
+                    <padding>
+                        <Insets left="90.0" right="90.0"/>
+                    </padding>
+                </VBox>
+                <Button mnemonicParsing="false" onAction="#login" prefHeight="46.0" prefWidth="332.0"
+                        style="-fx-background-radius: 100px; -fx-background-color: #40e0d0;" text="SIGN IN"
+                        textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="15.0"/>
+                    </font>
+                </Button>
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="119.0"
+                       text="Forgot Password?" textFill="#5b5b5b">
+                    <font>
+                        <Font name="System Bold" size="14.0"/>
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
